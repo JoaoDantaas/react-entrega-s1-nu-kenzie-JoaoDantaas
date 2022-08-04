@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap");
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 363px;
+  height: 300px;
+  border: 1px solid #e9ecef;
+  margin-bottom: 16px;
+  margin-right: 59px;
+}
+
+.h2-form {
+  font-size: 12px;
+  color: #212529;
+  /* width: 20%; */
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.input-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 12px;
+  width: 314px;
+  height: 40px;
+  color: #868e96;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+.example {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #868e96;
+  margin-bottom: 17px;
+}
+
+.contanier-values {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 36px;
+  margin-bottom: 19px;
+}
+
+.input-value {
+  width: 128px;
+  height: 20px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  color: #868e96;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.input-exit {
+  width: 150px;
+  height: 20px;
+  border: none;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  color: #343a40;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.button-form {
+  width: 314px;
+  height: 48px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button-form:hover {
+  background: #fd3780ad;
+  border: 2px solid #fd3780ad;
+}
